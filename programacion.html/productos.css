@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+  
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    font-family: "Bebas Neue", sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+
+   p{
+    font-family: Arial, Helvetica, sans-serif;
+   }
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .header {
+        background-image: linear-gradient(
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)),
+            url(img.css/postres.png.jpg);
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            min-height: 70vh;
+            display: flex;
+            align-items: center;
+
+
+        
+    }
+
+    .menu {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+
+    .logo img{
+        display: flex;
+        height: 150px;
+        align-items: center;
+        margin-right: 20px;
+        padding: auto;
+        
+    }
+    .menu .navbar ul li  {
+        position: relative;
+        float: left;
+    }
+
+    .menu .navbar ul li a {
+        font-size: 20px;
+        padding: 20px;
+        color: aliceblue;
+        display: block;
+    }
+
+    .menu .navbar ul li a:hover {
+        color: #e4b35a;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    .menu-icono {
+        width: 25px;
+
+    }
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+
+
+
+
+
+
+.productos-content {
+    text-align: center;
+
+}
+
+.productos-content h2 {
+    font-size: 50px;
+    line-height: 60px;
+    color: #dbda77;
+    text-transform: uppercase;
+    padding: 40px 60px;
+    margin-bottom: 15px;
+}
+
+.productos-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.productos-1 {
+    padding: 25px;
+
+}
+
+.productos-1 img{
+    width: 200px;
+}
+
+.productos-img{
+    position: absolute;
+    top: 0;
+    right: 0;
+
+}
+
+.productos-1 h3 {
+    color: #dbda77;
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+
+.productos-1 p {
+    color: rgb(238, 238, 238);
+}

@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+  
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    font-family: "Bebas Neue", sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+
+   p{
+    font-family: Arial, Helvetica, sans-serif;
+   }
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .header {
+        background-image: linear-gradient(
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)),
+            url(img.css/Mediterranean\ House\ Surrounded\ by\ Lush\ Garden.jpg);
+            background-position: center bottom;
+            background-repeat: no-repeat;
+            background-size: cover;
+            min-height: 70vh;
+            display: flex;
+            align-items: center;
+
+
+        
+    }
+
+    .menu {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+
+   
+
+    .menu .navbar ul li  {
+        position: relative;
+        float: left;
+    }
+
+    .menu .navbar ul li a {
+        font-size: 20px;
+        padding: 20px;
+        color: aliceblue;
+        display: block;
+        
+    }
+
+    .menu .navbar ul li a:hover {
+        color: #e4b35a;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    .menu-icono {
+        width: 25px;
+
+    }
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+
+.header-content {
+    text-align: center;
+}
+
+.header-content h1{
+    font-size: 60px;
+    line-height: 65px;
+    color: rgb(230, 232, 235);
+    margin-bottom: 30px;
+}
+
+
+.header-content p{ 
+    font-size: 16px;
+    color: #e0e0e0;
+    margin-bottom: 15px;
+}
+
+.btn-1 {
+    display: inline-block;
+    padding: 11px 45px;
+    background-color: #e4b35a;
+    color: #e0e0e0;
+    border-radius: 25px;
+    font-size: 22px;
+}
+
+.btn-1:hover {
+    background-color: #f7a000;
+}
+
+.direction {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+
+.direction p {
+    color: #e29664;
+    font-size: 16px;
+}
+
+
+.about {
+    padding: 100px 0;
+    display: flex;
+}
+
+
+.about-txt {
+    width: 50%;
+}
+.about-img {
+    width: 50%;
+}
+
+.about-img img {
+    width: 450px;
+}
+
+h2 {
+    font-size: 70px;
+    color: #e4b35a;
+    margin-bottom: 15px;
+}
+
+.about-txt p {
+font-size: 16px;
+color: #101113;
+margin-bottom: 35px;
+}
+
+h3 {
+    color: #f8b63c;
+}

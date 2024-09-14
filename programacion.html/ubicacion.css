@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+  
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    font-family: "Bebas Neue", sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+
+   p{
+    font-family: Arial, Helvetica, sans-serif;
+   }
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .header {
+        background-image: linear-gradient(
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)),
+            url(img.css/Farmer\ Standing\ in\ Field.jpeg);
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            min-height: 70vh;
+            display: flex;
+            align-items: center;
+
+
+        
+    }
+
+    .menu {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+
+    .logo img{
+        display: flex;
+        height: 150px;
+        align-items: center;
+        margin-right: 20px;
+        padding: auto;
+        
+    }
+
+    .menu .navbar ul li  {
+        position: relative;
+        float: left;
+    }
+
+    .menu .navbar ul li a {
+        font-size: 20px;
+        padding: 20px;
+        color: aliceblue;
+        display: block;
+    }
+
+    .menu .navbar ul li a:hover {
+        color: #e4b35a;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    .menu-icono {
+        width: 25px;
+
+    }
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+.about {
+
+    padding: 100px 0;
+    display: flex;
+}
+ 
+
+
+
+.about-img {
+    width: 70%;
+    justify-content: center;
+
+}
+
+
+.about-img img {
+    width: 550px;
+    justify-content: center;
+}
+
+h3 {
+    font-size: 20px;
+    color: #eec963;
+    margin-bottom: 10px;
+    
+
+}
+
+.about-txt p {
+    font-size: 20px;
+    color: #d0d9df;
+    margin-bottom: 45px;
+    
+}
+
+/* Contenedor principal */
+.contenido {
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 100px 50px 50px;
+    color: white;
+    text-shadow: 1px 1px 4px rgba(219, 158, 45, 0.7);
+    min-height: 100vh;
+    text-align: center;
+}
+
+.imagen-principal img {
+    height: 60px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
+.descripcion p {
+    font-size: 18px;
+    line-height: 1.6;
+    background-color: rgba(221, 159, 66, 0.6);
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 800px;
+    margin: 20px auto;
+}
